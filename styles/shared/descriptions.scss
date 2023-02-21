@@ -1,0 +1,49 @@
+%description-9{
+  letter-spacing: normal;
+
+  @include media('<phone'){
+    font-size: .875rem;
+  }
+}
+
+%description-14{
+  letter-spacing: normal;
+
+  font-size: 14px;
+  font-weight: 300;
+  
+  @include media('<phone'){
+    font-size: .875rem;
+  }
+}
+
+%description-16{
+
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 22.65px;
+
+  @include media('>phone'){
+    
+  }
+}
+
+%description-18{
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+
+  @include media('>phone'){
+    
+  }
+}
+
+%description-24{
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: normal;
+
+  @include media('>phone'){
+    
+  }
+}
