@@ -26,7 +26,7 @@ export default class Card extends HTMLElement {
   // By it self web components have no styling so we have to use a getter to give them the styling located in the main.css
   get style() {
     return (
-      "<style>@import url(http://127.0.0.1:4173/assets/index-933b0315.css) </style>"
+      "<style>@import url(http://127.0.0.1:4173/assets/index-933b0315.css) </style>","<style>@import url(../../styles/index.scss)</style>"
       )  
     
   }
